@@ -26,16 +26,19 @@ h1, h2, h3
 p, ol, ul
 {
 	margin-top: 0;
+	
 }
 
 ol, ul
 {
 	padding: 0;
-	list-style: none;
+	list-style: unset;
+	font-size: 17px;
 }
 
 p
 {
+	font-size: 2.5ex;
 	line-height: 180%;
 }
 
@@ -494,7 +497,7 @@ ul.contact li a.icon-rss:before
 	width: 1000px;
 	text-align: center;
 	color: rgba(255,255,255,.7);
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 #banner img{
 	width: auto;
@@ -635,7 +638,7 @@ ul.contact li a.icon-rss:before
 #featured-wrapper
 {
 	overflow: hidden;
-	padding: 10em 0em;
+	padding: 2em 0em;
 	background: #FFF;
 	text-align: center;
 }
@@ -795,7 +798,7 @@ ul.contact li a.icon-rss:before
 
 #slider .indicator ul
 {
-	list-style: none;
+	list-style: unset;
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -941,4 +944,12 @@ ul.contact li a.icon-rss:before
 {
 	float: right;
 	
+}
+
+#vstup{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65vw;
+	height: auto;
+	text-align: center;
 }
